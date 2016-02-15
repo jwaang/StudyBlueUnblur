@@ -1,14 +1,11 @@
 {
 	"name": "Study Blue Unblur",
 	"version": "1.0",
-	"icons": {
-		"128": "icon.png"
-	},
 	"manifest_version": 2,
 	"description": "Unblurs the flashcards and increases box size.",
 	"content_scripts": [
 		{
-			"matches": ["https://www.studyblue.com/*"], 
+			"matches": ["https://www.studyblue.com/*"],
 			"css": ["seo.css"],
 			"run_at": "document_end"
 		}
